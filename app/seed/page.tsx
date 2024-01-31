@@ -162,6 +162,20 @@ export default function SeedDatabase() {
           category: 'show',
           youtubeString: 'https://www.youtube.com/embed/7hRxWGo49oc',
         },
+        {
+          id: 11,
+          title: 'Love Triangle',
+          age: 16,
+          duration: 0,
+          imageString:
+            'https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FRLt63rOgjt4%2Fmaxresdefault.jpg&tbnid=v3Pw-eSQTLfmrM&vet=12ahUKEwjb1d-l14eEAxU8TKQEHSaiD-YQMygAegQIARAz..i&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRLt63rOgjt4&docid=VNlI0JuxgAMGuM&w=1280&h=720&q=love%20triangle%20nigeria%20movie%20MAURICE%20SAM%2C%20CHIOMA%2C%20NWAOHA%2C%20CHRIS%20AKWARANDU%202024&hl=en&ved=2ahUKEwjb1d-l14eEAxU8TKQEHSaiD-YQMygAegQIARAz',
+          overview:
+            'A Movie to make your day. Starring: MAURICE SAM, CHIOMA, NWAOHA, CHRIS AKWARANDU',
+          release: 2023,
+          videoSource: '',
+          category: 'movie',
+          youtubeString: 'https://www.youtube.com/watch?v=RLt63rOgjt4',
+        },
       ],
     });
   }

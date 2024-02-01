@@ -5,7 +5,7 @@ import GithubSignInButton from '@/app/components/GithubSignInButton';
 import GoogleSignInButton from '@/app/components/GoogleSignInButton';
 import { getServerSession } from 'next-auth';
 import { redirect } from 'next/navigation';
-import { authOptions } from '@/app/utils/auth';
+import authOptions from '@/app/utils/auth';
 
 export default async function SignUp() {
   const session = await getServerSession(authOptions);

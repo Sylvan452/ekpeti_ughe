@@ -1,4 +1,6 @@
 'use client';
+
+import { Button, buttonVariants } from '@/components/ui/button';
 import { Heart, PlayCircle } from 'lucide-react';
 import PlayVideoModal from './PlayVideoModal';
 import { useState } from 'react';
@@ -40,17 +42,17 @@ export function MovieCard({
           <form action={deleteFromWatchlist}>
             <input type="hidden" name="watchlistId" value={watchListId} />
             <input type="hidden" name="pathname" value={pathName} />
-            <button variant="outline" size="icon">
+            <Button variant="outline" size="icon">
               <Heart className="w-4 h-4 text-red-500" />
-            </button>
+            </Button>
           </form>
         ) : (
           <form action={addTowatchlist}>
             <input type="hidden" name="movieId" value={movieId} />
             <input type="hidden" name="pathname" value={pathName} />
-            <button variant="outline" size="icon">
+            <Button variant="outline" size="icon">
               <Heart className="w-4 h-4" />
-            </button>
+            </Button>
           </form>
         )}
       </div>
